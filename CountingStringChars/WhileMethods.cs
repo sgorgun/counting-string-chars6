@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace CountingStringChars
 {
@@ -9,7 +9,7 @@ namespace CountingStringChars
         /// </summary>
         /// <param name="str">A <see cref="string"/> to search.</param>
         /// <returns>A number of white space characters in a string.</returns>
-        public static int GetSpaceCount(string str)
+        public static int GetSpaceCount(string? str)
         {
             // TODO #3. Analyze the implementation of "GetSpaceCountRecursive" method, and implement the method using the "while" loop statement.
             throw new NotImplementedException();
@@ -20,7 +20,7 @@ namespace CountingStringChars
         /// </summary>
         /// <param name="str">A <see cref="string"/> to search.</param>
         /// <returns>A number of punctuation marks in a string.</returns>
-        public static int GetPunctuationCount(string str)
+        public static int GetPunctuationCount(string? str)
         {
             // TODO #4. Analyze the implementation of "GetPunctuationCount" method, and implement the method using the "while" loop statement.
             throw new NotImplementedException();
@@ -31,7 +31,7 @@ namespace CountingStringChars
         /// </summary>
         /// <param name="str">A <see cref="string"/> to search.</param>
         /// <returns>A number of white space characters in a string.</returns>
-        public static int GetSpaceCountRecursive(string str)
+        public static int GetSpaceCountRecursive(string? str)
         {
             if (str is null)
             {
@@ -53,7 +53,7 @@ namespace CountingStringChars
         /// </summary>
         /// <param name="str">A <see cref="string"/> to search.</param>
         /// <returns>A number of punctuation marks in a string.</returns>
-        public static int GetPunctuationCountRecursive(string str)
+        public static int GetPunctuationCountRecursive(string? str)
         {
             if (str is null)
             {

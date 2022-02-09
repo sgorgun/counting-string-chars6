@@ -9,7 +9,7 @@ namespace CountingStringChars
         /// </summary>
         /// <param name="str">A <see cref="string"/> to search.</param>
         /// <returns>A number of digits in a string.</returns>
-        public static int GetDigitCount(string str)
+        public static int GetDigitCount(string? str)
         {
             // TODO #5. Analyze the implementation of "GetDigitCountRecursive" methods, and implement the method using the "do..while" loop statement.
             throw new NotImplementedException();
@@ -20,7 +20,7 @@ namespace CountingStringChars
         /// </summary>
         /// <param name="str">A <see cref="string"/> to search.</param>
         /// <returns>A number of letters in a string.</returns>
-        public static int GetLetterCount(string str)
+        public static int GetLetterCount(string? str)
         {
             // TODO #6. Analyze the implementation of "GetLetterCountRecursive" methods, and implement the method using the "do..while" loop statement.
             throw new NotImplementedException();
@@ -31,7 +31,7 @@ namespace CountingStringChars
         /// </summary>
         /// <param name="str">A <see cref="string"/> to search.</param>
         /// <returns>A number of digits in a string.</returns>
-        public static int GetDigitCountRecursive(string str)
+        public static int GetDigitCountRecursive(string? str)
         {
             if (str is null)
             {
@@ -46,7 +46,7 @@ namespace CountingStringChars
         /// </summary>
         /// <param name="str">A <see cref="string"/> to search.</param>
         /// <returns>A number of letters in a string.</returns>
-        public static int GetLetterCountRecursive(string str)
+        public static int GetLetterCountRecursive(string? str)
         {
             if (str is null)
             {

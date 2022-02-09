@@ -9,7 +9,7 @@ namespace CountingStringChars
         /// </summary>
         /// <param name="str">A <see cref="string"/> to search.</param>
         /// <returns>A number of characters in a string.</returns>
-        public static int GetCharCount(string str)
+        public static int GetCharCount(string? str)
         {
             // TODO #1. Analyze the implementation of "GetCharCountRecursive" methods, and implement the method using the "for" loop statement.
             throw new NotImplementedException();
@@ -20,7 +20,7 @@ namespace CountingStringChars
         /// </summary>
         /// <param name="str">A <see cref="string"/> to search.</param>
         /// <returns>A number of upper characters in a string.</returns>
-        public static int GetUpperCharCount(string str)
+        public static int GetUpperCharCount(string? str)
         {
             // TODO #2. Analyze the implementation of "GetUpperCharCountRecursive" methods, and implement the method using the "for" loop statement.
             throw new NotImplementedException();
@@ -31,7 +31,7 @@ namespace CountingStringChars
         /// </summary>
         /// <param name="str">A <see cref="string"/> to search.</param>
         /// <returns>A number of characters in a string.</returns>
-        public static int GetCharCountRecursive(string str)
+        public static int GetCharCountRecursive(string? str)
         {
             if (str is null)
             {
@@ -46,7 +46,7 @@ namespace CountingStringChars
         /// </summary>
         /// <param name="str">A <see cref="string"/> to search.</param>
         /// <returns>A number of upper characters in a string.</returns>
-        public static int GetUpperCharCountRecursive(string str)
+        public static int GetUpperCharCountRecursive(string? str)
         {
             if (str is null)
             {
